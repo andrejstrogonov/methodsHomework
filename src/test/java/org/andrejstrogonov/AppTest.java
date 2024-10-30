@@ -12,6 +12,7 @@ public class AppTest
     {
         assertEquals("2024 год является високосным",App.calculatorLeapYear(2024));
     }
+    @Test
     public void testNotLeapYear()
     {
         assertEquals("2023 год невисокосный год",App.calculatorLeapYear(2023));
