@@ -9,9 +9,9 @@ public class App
 
     public static String calculatorLeapYear(int i) {
         if (i % 4 == 0 && i % 100 != 0 || i % 400 == 0) {
-            return i + " год является високосным";
+            return i + " год — високосный год";
         } else {
-            return i + " год невисокосный год";
+            return i + " год — невисокосный год";
         }
     }
 }
