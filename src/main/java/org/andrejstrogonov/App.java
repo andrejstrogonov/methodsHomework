@@ -6,6 +6,7 @@ public class App
     {
         System.out.println(calculatorLeapYear(2024));
         System.out.println(calculateDeviceVersion(1,2014));
+        System.out.println(calculateDeliveryDistance(50));
     }
 
     public static String calculatorLeapYear(int i) {
@@ -30,4 +31,20 @@ public class App
              }
          }
      }
+
+    public static String calculateDeliveryDistance(int i) {
+        if (i > 20 && i <= 60){
+            return "Потребуется дней: " + 2;
+        }
+        if (i >= 1 && i < 20){
+            return "Потребуется дней: " + 1;
+        }
+        if (i > 60 && i <= 100){
+            return "Потребуется дней: " +3;
+        }
+        if (i>100){
+            return "Доставки нет";
+        }
+        return null;
+    }
 }

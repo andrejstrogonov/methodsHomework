@@ -25,6 +25,10 @@ public class AppTest
     public void testYearOsYear(){
         assertEquals("Установите облегченную версию приложения для iOS по ссылке",App.calculateDeviceVersion(0,2013));
     }
+    @Test
+    public void testDelivery(){
+        assertEquals("Потребуется дней: 2",App.calculateDeliveryDistance(50));
+    }
 
 
 }
