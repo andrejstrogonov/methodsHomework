@@ -27,13 +27,5 @@
       <version>5.11.3</version>
       <scope>test</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-suite-api -->
-    <dependency>
-      <groupId>org.junit.platform</groupId>
-      <artifactId>junit-platform-suite</artifactId>
-      <version>1.11.3</version>
-      <scope>test</scope>
-    </dependency>
-
   </dependencies>
 </project>
